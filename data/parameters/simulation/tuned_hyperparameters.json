@@ -1,0 +1,81 @@
+{
+    "performance": {
+        "Recommender_multinomial_logit": {
+            "n_users": 500,
+            "n_alternatives": 500,
+            "k": 3,
+            "n_epochs": 2000,
+            "learning_rate": 1.0,
+            "batch_size": 256,
+            "l2_embs": 0,
+            "n_early_stop": 20,
+            "optimizer_class_name": "SGD",
+            "n_kernels": 5
+        },
+        "Recommender_exponomial": {
+            "n_users": 500,
+            "n_alternatives": 500,
+            "k": 3,
+            "n_epochs": 2000,
+            "learning_rate": 0.1,
+            "batch_size": 256,
+            "l2_embs": 0,
+            "n_early_stop": 20,
+            "optimizer_class_name": "Adam",
+            "n_kernels": 5
+        },
+        "Recommender_NPMLE": {
+            "n_users": 500,
+            "n_alternatives": 500,
+            "k": 3,
+            "n_epochs": 2000,
+            "learning_rate_model": 1.0,
+            "learning_rate_cdf": 0.3,
+            "n_kernels": 5,
+            "batch_size": 256,
+            "l2_embs": 0,
+            "n_early_stop": 20,
+            "normalize_bias": true,
+            "learn_bandwidth": true,
+            "plot_cdf_gif": false,
+            "optimizer_class_name": "SGD"
+        },
+        "Recommender_binary_logit": {
+            "n_users": 500,
+            "n_alternatives": 500,
+            "k": 3,
+            "n_epochs": 2000,
+            "learning_rate": 0.1,
+            "batch_size": 1024,
+            "l2_embs": 0,
+            "n_early_stop": 20,
+            "optimizer_class_name": "SGD",
+            "n_kernels": 5
+        },
+        "Recommender_binary_logit_negative_sampling": {
+            "n_users": 500,
+            "n_alternatives": 500,
+            "k": 3,
+            "n_epochs": 2000,
+            "learning_rate": 1.0,
+            "batch_size": 1024,
+            "l2_embs": 0,
+            "n_early_stop": 20,
+            "optimizer_class_name": "Adam",
+            "n_kernels": 5
+        },
+        "Recommender_gBCE": {
+            "n_users": 500,
+            "n_alternatives": 500,
+            "k": 3,
+            "n_epochs": 2000,
+            "learning_rate": 3.0,
+            "batch_size": 1024,
+            "l2_embs": 0,
+            "n_early_stop": 20,
+            "t": 1,
+            "optimizer_class_name": "Adam",
+            "n_kernels": 5
+        }
+    }
+}

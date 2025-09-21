@@ -1,0 +1,13 @@
+keras==2.13.1
+matplotlib==3.7.2
+matplotlib-inline==0.1.6
+numpy==1.24.3
+pandas==2.0.3
+Pillow==10.0.0
+protobuf==4.24.2
+scikit-learn==1.4.1.post1
+scipy==1.11.2
+statsmodels==0.14.1
+tensorflow==2.13.0
+tensorflow-probability==0.21.0
+tqdm==4.66.1

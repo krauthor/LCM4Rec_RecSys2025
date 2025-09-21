@@ -1,0 +1,8 @@
+.venv
+*/__pychache__/*
+data/real_world/*
+data/simulation_results/*
+data/tmp/*
+LaTeX Source/*
+tmp.py
+*.pyc
